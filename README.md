@@ -17,23 +17,14 @@ This is borrowing from the idea that [amp.nvim](https://github.com/sourcegraph/a
 
 ### Setup
 
-1. Clone the repository and install dependencies:
-
-```sh
-git clone https://github.com/your-user/claudinho.git
-cd claudinho/claude-code
-pnpm install
-pnpm build
-```
-
-2. Add the MCP server to your Claude Code settings (`~/.claude.json`):
+Add the MCP server to your Claude Code settings (`~/.claude.json`):
 
 ```json
 {
   "mcpServers": {
     "claudinho": {
-      "command": "node",
-      "args": ["/absolute/path/to/claudinho/claude-code/dist/index.js"]
+      "command": "npx",
+      "args": ["-y", "claudinho.nvim"]
     }
   }
 }

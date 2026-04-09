@@ -4,6 +4,7 @@
   "description": "Claude Code MCP plugin for Neovim integration",
   "type": "module",
   "main": "dist/index.js",
+  "bin": "dist/index.js",
   "files": ["dist"],
   "scripts": {
     "start": "tsx src/index.ts",
