@@ -22,10 +22,10 @@ importers:
         specifier: 2.4.10
         version: 2.4.10
       '@changesets/changelog-github':
-        specifier: ^0.6.0
+        specifier: 0.6.0
         version: 0.6.0
       '@changesets/cli':
-        specifier: ^2.30.0
+        specifier: 2.30.0
         version: 2.30.0(@types/node@25.5.2)
       '@types/node':
         specifier: 25.5.2
