@@ -2,6 +2,15 @@
   "name": "claudinho.nvim",
   "version": "0.1.0",
   "description": "Claude Code MCP plugin for Neovim integration",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabrielmfern/claudinho.git"
+  },
+  "homepage": "https://github.com/gabrielmfern/claudinho",
+  "bugs": {
+    "url": "https://github.com/gabrielmfern/claudinho/issues"
+  },
   "type": "module",
   "main": "dist/index.js",
   "bin": "dist/index.js",
