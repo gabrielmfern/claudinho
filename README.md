@@ -23,6 +23,7 @@ This is borrowing from the idea that [amp.nvim](https://github.com/sourcegraph/a
 git clone https://github.com/your-user/claudinho.git
 cd claudinho/claude-code
 pnpm install
+pnpm build
 ```
 
 2. Add the MCP server to your Claude Code settings (`~/.claude.json`):
@@ -31,8 +32,8 @@ pnpm install
 {
   "mcpServers": {
     "claudinho": {
-      "command": "npx",
-      "args": ["tsx", "/absolute/path/to/claudinho/claude-code/src/index.ts"]
+      "command": "node",
+      "args": ["/absolute/path/to/claudinho/claude-code/dist/index.mjs"]
     }
   }
 }
