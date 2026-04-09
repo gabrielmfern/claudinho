@@ -1,5 +1,5 @@
 {
-  "name": "claudinho",
+  "name": "claudinho.nvim",
   "version": "0.1.0",
   "description": "Claude Code MCP plugin for Neovim integration",
   "type": "module",
