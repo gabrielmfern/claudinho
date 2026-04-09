@@ -33,7 +33,7 @@ pnpm build
   "mcpServers": {
     "claudinho": {
       "command": "node",
-      "args": ["/absolute/path/to/claudinho/claude-code/dist/index.mjs"]
+      "args": ["/absolute/path/to/claudinho/claude-code/dist/index.js"]
     }
   }
 }

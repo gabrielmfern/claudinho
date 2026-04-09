@@ -6,6 +6,7 @@ export default defineConfig({
   outDir: "dist",
   platform: "node",
   clean: true,
+  outExtensions: () => ({ js: ".js" }),
   deps: {
     onlyBundle: false,
   },

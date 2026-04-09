@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Claude Code MCP plugin for Neovim integration",
   "type": "module",
-  "main": "dist/index.mjs",
+  "main": "dist/index.js",
   "files": ["dist"],
   "scripts": {
     "start": "tsx src/index.ts",
