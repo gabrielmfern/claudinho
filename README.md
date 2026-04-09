@@ -47,8 +47,10 @@ Claude Code must be launched from a Neovim `:terminal` so the `$NVIM` environmen
 
 ```sh
 pnpm start        # run from source with tsx
+pnpm build        # bundle into dist/index.js
 pnpm typecheck    # type check without emitting
 pnpm lint         # run biome linter
-pnpm format       # auto-format with biome
-pnpm build        # bundle into dist/index.js
+pnpm lint:fix     # auto-fix lint issues
+pnpm version      # bump version from changesets
+pnpm release      # build and publish to npm
 ```
