@@ -1,4 +1,4 @@
-# claudinho.nvim
+# claudinho-nvim
 
 Most plugins for claude code in neovim are really just one single thing, they run claude code inside of a terminal session. I find this bad for two of reasons personally:
 - The terminal buffer is not as capable as actual terminal, or even as tmux
@@ -35,7 +35,7 @@ Add to your Claude Code settings (`~/.claude.json`):
   "mcpServers": {
     "claudinho": {
       "command": "npx -y",
-      "args": ["claudinho.nvim"]
+      "args": ["claudinho-nvim"]
     }
   }
 }
